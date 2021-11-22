@@ -1,0 +1,25 @@
+h1{
+    font-family: sans-serif;
+  }
+  p{
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+  }
+  body{
+    font-size: 16px;
+    text-align: justify;
+  }
+  ul{
+    line-height: 40px;
+    text-decoration: underline;
+  }
+  #item1{
+    background-color: yellow;
+  }
+  #item2{
+    background-color: red;
+  }
+  #item3{
+    background-color: brown;
+  }
