@@ -2,26 +2,36 @@ div:hover{
     border: 2px solid gray;
 }
 div:nth-of-type(1){
-    color: red;
-    text-decoration: underline;
+    color: red; 
 }
 div:nth-of-type(2){
     color:pink;
-    font-style: italic;
 }
 div:nth-of-type(3){
     color:blueviolet;
-    text-decoration: overline;
     font-size: 2em;
 }
 div:nth-of-type(4){
     color: brown;
-    font-style: oblique;
 }
 div:nth-of-type(5){
     color: yellow;
-    text-decoration: line-through;
 }
 div:nth-child(2n + 1){
     font-style: italic;
+}
+div:nth-of-type(1) > h3{
+    text-decoration: underline;
+}
+div:nth-of-type(2) > h3{
+    font-style: italic;
+}
+div:nth-of-type(3) > h3{
+    text-decoration: overline;
+}
+div:nth-of-type(4) > h3{
+    font-style: oblique;
+}
+div:nth-of-type(5) > h3{
+    text-decoration: line-through;
 }
