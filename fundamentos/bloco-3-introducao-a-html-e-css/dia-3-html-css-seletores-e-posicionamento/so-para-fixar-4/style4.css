@@ -22,3 +22,6 @@ div:nth-of-type(5){
     color: yellow;
     text-decoration: line-through;
 }
+div:nth-child(2n + 1){
+    font-style: italic;
+}
