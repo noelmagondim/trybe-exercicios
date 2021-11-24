@@ -1,0 +1,9 @@
+h1, p{
+    text-align: center;
+}
+li:hover{
+    background-color: pink;
+}
+li:active{
+    font-family: sans-serif;
+}
