@@ -32,3 +32,23 @@ li em{
 .cor-bg{
     background-color: pink;
 }
+#link-1:hover{
+    color:orange;
+    font-weight: bold;
+}
+#link-2:hover{
+    color:green;
+    font-weight: bold;
+}
+#link-3:hover{
+    color:black;
+    font-weight: bold;
+}
+#link-4:hover{
+    color:yellow;
+    font-weight: bold;
+}
+#link-5:hover{
+    color:green;
+    font-weight: bold;
+}
