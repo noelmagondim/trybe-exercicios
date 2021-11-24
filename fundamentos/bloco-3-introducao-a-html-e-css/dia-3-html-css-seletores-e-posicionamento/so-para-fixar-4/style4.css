@@ -12,6 +12,7 @@ div:nth-of-type(2){
 div:nth-of-type(3){
     color:blueviolet;
     text-decoration: overline;
+    font-size: 2em;
 }
 div:nth-of-type(4){
     color: brown;
