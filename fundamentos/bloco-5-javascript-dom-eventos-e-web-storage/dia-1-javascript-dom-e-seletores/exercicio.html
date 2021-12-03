@@ -65,6 +65,14 @@
             menuColor2.style.background = 'white';
         }
         changeColor2();
+
+        //Exercício 04 -  Crie uma função que corrija o texto da tag <h1>.
+
+        function changeText2(){
+            let header = document.getElementsByTagName("h1")[0];
+            header.innerText = "Exercício 5.1 - JavaScript";
+        }
+        changeText2();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
