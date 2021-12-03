@@ -42,19 +42,28 @@
       </section>
     </main>
     <script>
-        //Exercício 01
+        //Exercício 01 -  Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+
         function changeText(){
-            const p2 = document.getElementsByTagName("p")[1];
+            let p2 = document.getElementsByTagName("p")[1];
             p2.innerText = "Daqui há 2 anos pretendo conquistar minha liberdade financeira!";
         }
         changeText();
+
+        //Exercício 02 -  Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+        
+        function changeColor(){
+            let menuColor = document.getElementsByClassName('main-content')[0];
+            menuColor.style.background = 'rgb(76,164,109)';
+        }
+        changeColor();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+ 
+
  Crie uma função que mude a cor do quadrado vermelho para branco.
  Crie uma função que corrija o texto da tag <h1>.
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
