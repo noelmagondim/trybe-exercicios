@@ -73,6 +73,20 @@
             header.innerText = "Exercício 5.1 - JavaScript";
         }
         changeText2();
+
+        //Exercício 05 - Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        
+        function changeText3(){
+            let allP = document.getElementsByTagName("p")[0];
+            allP.innerHTML = allP.innerHTML.toUpperCase();
+
+            let allP2 = document.getElementsByTagName("p")[1];
+            allP2.innerHTML = allP2.innerHTML.toUpperCase();
+
+            let allP3 = document.getElementsByTagName("p")[2];
+            allP3.innerHTML = allP3.innerHTML.toUpperCase();
+        }
+        changeText3();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
@@ -81,8 +95,8 @@
  
 
  
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ 
+ 
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
     </script>
