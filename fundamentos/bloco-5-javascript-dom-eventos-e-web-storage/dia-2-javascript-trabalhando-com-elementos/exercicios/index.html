@@ -98,7 +98,20 @@
         li.innerHTML = numbers[num];
         lista.appendChild(li);
       } 
-
+      //EXERCÍCIO 9 - Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+      /*
+      let tag1 = document.createElement('h3');
+      main.appendChild(tag1);
+      let tag2 = document.createElement('h3');
+      main.appendChild(tag2);
+      let tag3 = document.createElement('h3');
+      main.appendChild(tag3);
+      */
+      for (let index = 1; index <= 3; index += 1) {
+        const h3 = document.createElement('h3');
+        h3.innerHTML = 'texto ' + index;
+        main.appendChild(h3);
+      }
       </script>
   </body>
 </html>
