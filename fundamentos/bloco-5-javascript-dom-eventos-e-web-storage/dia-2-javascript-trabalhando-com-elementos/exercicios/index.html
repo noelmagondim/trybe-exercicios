@@ -65,8 +65,12 @@
       elementoPai.appendChild(titulo); // anexado o elemento filho titulo ao elemento pai
       // EXERCÍCIO 2 - Adicione a tag main com a classe main-content como filho da tag body ;
       let main = document.createElement('main');
-      main.className = '.main-content';
+      main.className = 'main-content';
       elementoPai.appendChild(main); // adicionando elemento filho main ao elemento pai body 
+      // EXERCÍCIO 3 - Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      let section = document.createElement('section');
+      section.className = 'center-content';
+      main.appendChild(section);
     
       </script>
   </body>
