@@ -57,7 +57,12 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
-    </script>
+      // EXERCÍCIO 1 - Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
+      let elementoPai = document.body; // busca o elemento pai
+      let titulo = document.createElement('h1'); // criar elemento
+      let texto = document.createTextNode("Exercício 5.2 - JavaScript DOM"); // criado texto
+      titulo.appendChild(texto); // adicionado texto ao titulo
+      elementoPai.appendChild(titulo); // anexado o alemento filho titulo ao elemento pai
+      </script>
   </body>
 </html>
