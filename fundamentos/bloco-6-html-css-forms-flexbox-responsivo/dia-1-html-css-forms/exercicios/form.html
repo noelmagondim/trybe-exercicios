@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Formulário para cadastro de currículo</h1>
+      <p>Preencha os campos abaixo.</p>
+    </header>
+    <main>
+      <form>
+        <div>
+          <fieldset>
+            <div>
+              <label for="name">Nome: </label>
+              <input type="text" name="name" id="name" maxlength="40" required>
+            </div>
+            <div>
+              <label for="email">E-mail: </label>
+              <input type="email" name="email" id="email" maxlength="50" required>
+            </div>
+            <div>
+              <label for="cpf">CPF: </label>
+              <input type="text" name="cpf" id="cpf" maxlength="11" required>
+            </div>
+            <div>
+              <label for="end">Endereço: </label>
+              <input type="text" name="end" id="end" maxlength="200" required>
+            </div>
+            <div>
+              <label for="city">Cidade: </label>
+              <input type="text" maxlength="28" id="city" required>
+            </div>
+            <div>
+              <label for="state">Estado: </label>
+              <select name="estado" id="state" required>
+                <option>Selecione seu estado </option>
+              </select>
+            </div>
+            <div>
+              <label for="houseType">Tipo de Moradia</label>
+              <input type="radio" id="casa" name="houseType" required>Casa
+              <input type="radio" id="apartamento" name="houseType" required>Apartamento
+            </div>
+          </fieldset>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
