@@ -49,6 +49,31 @@
               <input type="radio" id="apartamento" name="houseType" required>Apartamento
             </div>
           </fieldset>
+          <fieldset>
+            <h1>Dados do último Emprego</h1>
+            <p>Preencha os campos abaixo.</p>
+            <div>
+              <label for="resCur">Resumo do currículo: </label>
+              <textarea id="resCur" cols="30" rows="10" maxlength="1000" required></textarea>
+            </div>
+            <div>
+              <label for="cargo">Cargo: </label>
+              <input type="text" id="cargo" maxlength="40" required>
+            </div>
+            <div>
+              <label for="descCargo">Descrição do cargo: </label>
+              <input type="text" maxlength="500" required>
+            </div>
+            <div>
+              <label  for="dataInicio">Data de início: </label>
+              <input type="date" required id="dataInicio">
+            </div>
+            <div>
+              <label>
+                <button type="submit" >Submit</button>
+              </label>
+            </div>
+          </fieldset>
         </div>
       </form>
     </main>
