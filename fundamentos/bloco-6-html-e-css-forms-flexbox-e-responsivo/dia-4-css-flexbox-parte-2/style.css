@@ -23,6 +23,9 @@
   .menu-container {
     display: flex;
     flex-basis: 500px;
+    order: 1;
+    flex-grow: 1;
+    align-self: center;
   }
   
   .menu-container ul {
@@ -38,3 +41,4 @@
     list-style: none;
     margin-right: 10px;
   }
+ 
