@@ -5,3 +5,75 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+@media  (max-width: 550px) {
+    body {
+        background-color: pink;
+        font-size: 0.9em;
+    }
+    header p {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .main-content {
+        text-align: justify;
+    }
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}  
+
+@media  (min-width: 551px) {
+    body {
+        background-color: gray;
+    }
+    header p {
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .main-content {
+        text-align: justify;
+    }
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+}  
+@media  (min-width: 1000px) {
+    body {
+        background-color: green;
+    }
+    header p {
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .main-content {
+        text-align: justify;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+    
+}  
